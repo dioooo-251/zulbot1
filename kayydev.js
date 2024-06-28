@@ -526,7 +526,7 @@ mentionedJid: [m.sender],
     externalAdReply:{
 title: Styles('Z u l B o t - M D'),
 body: Styles('bot whatsapp made by Zul'),
-thumbnailUrl: "https://telegra.ph/file/f982355b1257f83642fae.jpg,
+thumbnailUrl: "https://telegra.ph/file/f982355b1257f83642fae.jpg",
 showAdAttribution: true,
 renderLargerThumbnail: true,
 mediaType:1,
