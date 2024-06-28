@@ -487,7 +487,7 @@ newsletterJid: '120363210705976689@newsletter',
                             showAdAttribution: true,
                             title: `ZulBot - MultiDevice`,
                             body: '',
-                            thumbnailUrl: "https://telegra.ph/file/f982355b1257f83642fae.jpg,
+                            thumbnailUrl: "https://telegra.ph/file/f982355b1257f83642fae.jpg",
                             sourceUrl: '',
                             mediaType: 1,
                             renderLargerThumbnail: false

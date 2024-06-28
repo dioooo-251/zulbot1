@@ -242,7 +242,7 @@ async function connectToWhatsApp() {
             mimetype: 'application/pdf',
             fileLength: 99999,
             pageCount: '100',
-            fileName: `Bot Made By Natannn`,
+            fileName: `Bot Made By Zul`,
             caption: wel,
             contextInfo: {
               externalAdReply: {
@@ -286,7 +286,7 @@ async function connectToWhatsApp() {
             mimetype: 'application/pdf',
             fileLength: 99999,
             pageCount: '100',
-            fileName: `Bot Made By Natan`,
+            fileName: `Bot Made By Zul`,
             caption: a,
             contextInfo: {
               externalAdReply: {
@@ -308,7 +308,7 @@ async function connectToWhatsApp() {
             mimetype: 'application/pdf',
             fileLength: 99999,
             pageCount: '100',
-            fileName: `Bot Made By Natan`,
+            fileName: `Bot Made By Zul`,
             caption: a,
             contextInfo: {
               externalAdReply: {
@@ -414,7 +414,7 @@ async function connectToWhatsApp() {
                             interactiveMessage: proto.Message.InteractiveMessage.create({
                                 ...options,
                                 body: proto.Message.InteractiveMessage.Body.create({ text: title }),
-                                footer: proto.Message.InteractiveMessage.Footer.create({ text: footer || "Powered By Natan" }),
+                                footer: proto.Message.InteractiveMessage.Footer.create({ text: footer || "Powered By ZulBot - MD" }),
                                 nativeFlowMessage: proto.Message.InteractiveMessage.NativeFlowMessage.create({
                                     buttons: [
                                         {
@@ -723,8 +723,8 @@ async function connectToWhatsApp() {
     } else if (connection === "open") {
       console.log(chalk.black(chalk.bgWhite('Berhasil Tersambung')))
       if (global.db.data == null) await loadDatabase()
-      kayydev.sendMessage('6281935723403' + "@s.whatsapp.net", {
-        text: `*⚡️ _natanbotz_ ꜱᴜᴋꜱᴇꜱ ᴛᴇʀʜᴜʙᴜɴɢ ⚡️*`
+      kayydev.sendMessage('6283822770622' + "@s.whatsapp.net", {
+        text: `*⚡️ _ZulBot - MD_ ꜱᴜᴋꜱᴇꜱ ᴛᴇʀʜᴜʙᴜɴɢ ⚡️*`
       });
     }
     // console.log('Connected...', update)
