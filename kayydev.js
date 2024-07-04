@@ -1629,7 +1629,7 @@ let msg = generateWAMessageFromContent(m.chat, {
  isForwarded: true, 
  forwardedNewsletterMessageInfo: {
  newsletterJid: '120363267533195844@newsletter',
- newsletterName: 'Powered By KayyDev', 
+ newsletterName: 'Powered ZulBot - MD', 
  serverMessageId: -1
 },
  businessMessageForwardInfo: { businessOwnerJid: kayydev.decodeJid(kayydev.user.id) },
@@ -2121,7 +2121,7 @@ let msg = generateWAMessageFromContent(m.chat, {
  isForwarded: true, 
  forwardedNewsletterMessageInfo: {
  newsletterJid: global.idsal,
- newsletterName: 'Powered By KayyDev', 
+ newsletterName: 'Powered ZulBot - MD', 
  serverMessageId: -1
 },
  businessMessageForwardInfo: { businessOwnerJid: kayydev.decodeJid(kayydev.user.id) },
@@ -2974,7 +2974,7 @@ if (!isCreator) return reply(`*Access Denied ❌*\n\n*Owners only*`)
 if (!q) return reply('*Masukan nama case yang akan di hapus*')
 
 dellCase('./kayydev.js', q)
-reply('*Dellcase Successfully*\n\n© Dellcase By kayydev')
+reply('*Dellcase Successfully*\n\n© Dellcase Zul')
 }
 break
 case 'listcase': {
@@ -5681,7 +5681,7 @@ downloadMp4(text)
 break
 case 'youtube': {
 if (!text) return reply(`sertakan link`)
-kayydev.sendList(m.chat, "Result", "Powered By Adrian", {
+kayydev.sendList(m.chat, "Result", "Powered By ZulBot - MD", {
                     title: 'Click Me', sections: [{
                         title: "Pilih Format",
                         rows: [
@@ -5871,7 +5871,7 @@ let msg = generateWAMessageFromContent(m.chat, {
  isForwarded: true, 
  forwardedNewsletterMessageInfo: {
  newsletterJid: global.idsal,
- newsletterName: 'Powered By KayyDev', 
+ newsletterName: 'Powered ZulBot - MD', 
  serverMessageId: -1
 },
  businessMessageForwardInfo: { businessOwnerJid: kayydev.decodeJid(kayydev.user.id) },
@@ -6176,7 +6176,7 @@ let msg = generateWAMessageFromContent(m.chat, {
  isForwarded: true, 
  forwardedNewsletterMessageInfo: {
  newsletterJid: global.idsal,
- newsletterName: 'Powered By KayyDev', 
+ newsletterName: 'Powered ZulBot - MD', 
  serverMessageId: -1
 },
  businessMessageForwardInfo: { businessOwnerJid: kayydev.decodeJid(kayydev.user.id) },
@@ -6380,7 +6380,7 @@ let msg = generateWAMessageFromContent(m.chat, {
  isForwarded: true, 
  forwardedNewsletterMessageInfo: {
  newsletterJid: global.idsal,
- newsletterName: 'Powered By KayyDev', 
+ newsletterName: 'Powered ZulBot - MD', 
  serverMessageId: -1
 },
  businessMessageForwardInfo: { businessOwnerJid: kayydev.decodeJid(kayydev.user.id) },
@@ -6541,7 +6541,7 @@ let msg = generateWAMessageFromContent(m.chat, {
  isForwarded: true, 
  forwardedNewsletterMessageInfo: {
  newsletterJid: global.idsal,
- newsletterName: 'Powered By KayyDev', 
+ newsletterName: 'Powered ZulBot - MD', 
  serverMessageId: -1
 },
  businessMessageForwardInfo: { businessOwnerJid: kayydev.decodeJid(kayydev.user.id) },
@@ -6613,7 +6613,7 @@ let msg = generateWAMessageFromContent(m.chat, {
  isForwarded: true, 
  forwardedNewsletterMessageInfo: {
  newsletterJid: global.idsal,
- newsletterName: 'Powered By KayyDev', 
+ newsletterName: 'Powered ZulBot - MD', 
  serverMessageId: -1
 },
  businessMessageForwardInfo: { businessOwnerJid: kayydev.decodeJid(kayydev.user.id) },
@@ -9203,7 +9203,7 @@ let msg = generateWAMessageFromContent(m.chat, {
  isForwarded: true, 
  forwardedNewsletterMessageInfo: {
  newsletterJid: global.idsal,
- newsletterName: 'Powered By KayyDev', 
+ newsletterName: 'Powered ZulBot - MD', 
  serverMessageId: -1
 },
  businessMessageForwardInfo: { businessOwnerJid: kayydev.decodeJid(kayydev.user.id) },
@@ -12558,7 +12558,7 @@ let msg = generateWAMessageFromContent(m.chat, {
  isForwarded: true, 
  forwardedNewsletterMessageInfo: {
  newsletterJid: global.idsal,
- newsletterName: 'Powered By Zul', 
+ newsletterName: 'Powered By ZulBot - MD', 
  serverMessageId: -1
 },
  businessMessageForwardInfo: { businessOwnerJid: kayydev.decodeJid(kayydev.user.id) },
@@ -13941,7 +13941,7 @@ break
 			if (!isRegistered) return reply2(mess.regis)
 if (!q) return reply(`Example: ${prefix + command} kayydev`)
 await loading()
-			kayydev.sendMessage(m.chat, { image: { url: `https://api.lolhuman.xyz/api/textprome/${command}?apikey=${apikey}&text=${q}` }, caption: `Type: ${command}\nText: ${q}\n\n*Created By KayyDev*`}, { quoted: kalgans })
+			kayydev.sendMessage(m.chat, { image: { url: `https://api.lolhuman.xyz/api/textprome/${command}?apikey=${apikey}&text=${q}` }, caption: `Type: ${command}\nText: ${q}\n\n*Created Zul*`}, { quoted: kalgans })
 			}
 			break
 case 'anonymhacker': case 'aovwall': case 'avatardota': case 'avatarlolnew': case 'cartoongravity': case 'fpslogo': case 'lighttext': case 'logogaming': case 'lolbanner': case 'pubgmaskot': case 'starsnight': case 'wooden3d':{
@@ -17114,7 +17114,7 @@ let msg = generateWAMessageFromContent(m.chat, {
  isForwarded: true, 
  forwardedNewsletterMessageInfo: {
  newsletterJid: global.idsal,
- newsletterName: 'Powered By KayyDev', 
+ newsletterName: 'Powered Zulbot - MD', 
  serverMessageId: -1
 },
  businessMessageForwardInfo: { businessOwnerJid: kayydev.decodeJid(kayydev.user.id) },
@@ -17490,7 +17490,7 @@ let msg = generateWAMessageFromContent(m.chat, {
  isForwarded: true, 
  forwardedNewsletterMessageInfo: {
  newsletterJid: global.idsal,
- newsletterName: 'Powered By KayyDev', 
+ newsletterName: 'Powered ZulBot - MD', 
  serverMessageId: -1
 },
  businessMessageForwardInfo: { businessOwnerJid: kayydev.decodeJid(kayydev.user.id) },
@@ -18913,8 +18913,8 @@ case 'pembayaran': case 'nopevyn': case 'payment':{
 teks28 = `*❏––––––『 PAYMENT SAYA 』––––––❏*
  
 ⫹⫺ PAYMENT
-Dana: 081273312547
-Gopay: 081273312547
+Dana: 083822770622
+Gopay: 083822770622
 Jangan Lupa Send Bukti TF  😁`
 kayydev.sendMessage(from, { image: { url: "https://telegra.ph/file/9c95feb938747e0ad7a50.jpg" }, caption: teks28 }, { quoted: kalgans })
 }
@@ -20751,7 +20751,7 @@ function subDomain1(host, ip) {
            if (!ip1 || ip1.split(".").length < 4) return reply(ip1 ? "ip tidak valid" : "mana ip nya");
    
            subDomain1(host1, ip1).then((e) => {
-             if (e[mess.success]) reply(`*_Berhasil Menambah Subdomain✅_*\n_Ip : ${e['ip']}_\n_Hostname: ${e['name']}_\n\n*_Subdomain By kayydev⚡_*`);
+             if (e[mess.success]) reply(`*_Berhasil Menambah Subdomain✅_*\n_Ip : ${e['ip']}_\n_Hostname: ${e['name']}_\n\n*_Subdomain Zul⚡_*`);
              else reply(`gagal membuat subdomain\nMsg: ${e['error']}`)
            }); }
            break
@@ -21977,7 +21977,7 @@ let msg = generateWAMessageFromContent(m.chat, {
  isForwarded: true, 
  forwardedNewsletterMessageInfo: {
  newsletterJid: '120363267533195844@newsletter',
- newsletterName: 'Powered By KayyDev', 
+ newsletterName: 'Powered ZulBot - MD', 
  serverMessageId: -1
 },
  businessMessageForwardInfo: { businessOwnerJid: kayydev.decodeJid(kayydev.user.id) },
@@ -22292,7 +22292,7 @@ id: '.rpgmenu'
 },
 {
 title: 'Menu Panel', 
-description: "<!> Displays the Panel Menu", 
+description: "<!> This menu is currently being improved", 
 id: '.panelmenu'
 },
 {
@@ -22322,7 +22322,7 @@ id: '.mainmenu'
 },
 {
 title: 'Menu Linode', 
-description: "<!> Displays the Linode Menu", 
+description: "<!> This menu is currently being improved", 
 id: '.linodemenu'
 },
 {
@@ -22357,7 +22357,7 @@ id: '.convertmenu'
 },
 {
 title: 'Menu Domain', 
-description: "<!> Displays the Domain Menu", 
+description: "<!> This menu is currently being improved", 
 id: '.domainmenu'
 },
 {
@@ -22397,7 +22397,7 @@ id: '.pm2menu'
 },
 {
 title: 'Menu Vps', 
-description: "<!> Displays the Vps Menu", 
+description: "<!> This menu is currently being improved", 
 id: '.vpsmenu'
 },
 {
@@ -22604,7 +22604,7 @@ let msg = generateWAMessageFromContent(m.chat, {
  isForwarded: true, 
  forwardedNewsletterMessageInfo: {
  newsletterJid: global.idsal,
- newsletterName: 'Powered By Zul', 
+ newsletterName: 'Powered By ZulBot - MD', 
  serverMessageId: -1
 },
  businessMessageForwardInfo: { businessOwnerJid: kayydev.decodeJid(kayydev.user.id) },
@@ -22628,11 +22628,11 @@ let msg = generateWAMessageFromContent(m.chat, {
 },
  {
  "name": "cta_url",
- "buttonParamsJson": "{\"display_text\":\"Creator\",\"url\":\"https://wa.me/6281273312547\",\"merchant_url\":\"https://wa.me/6281273312547\"}"
+ "buttonParamsJson": "{\"display_text\":\"Creator\",\"url\":\"https://wa.me/6283822770622\",\"merchant_url\":\"https://wa.me/6283822770622\"}"
  },
  {
  "name": "quick_reply",
- "buttonParamsJson": "{\"display_text\":\"natann-Ai\",\"id\":\".Zul halo Zul\"}"
+ "buttonParamsJson": "{\"display_text\":\"ZulBot - MD\",\"id\":\".Zul halo Zul\"}"
  },
  ],
  })

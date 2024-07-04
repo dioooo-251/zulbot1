@@ -264,7 +264,7 @@ async function connectToWhatsApp() {
             mimetype: 'application/pdf',
             fileLength: 99999,
             pageCount: '100',
-            fileName: `Bot Made By Natannn`,
+            fileName: `Bot Made By Zul`,
             caption: txtLeft,
             contextInfo: {
               externalAdReply: {
