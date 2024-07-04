@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-ZulBot Multi Device is a whatsapp bot developed by <a href="https://github.com/dioooo-251" target="_blank">Xeon</a> using <a href="https://github.com/adiwajshing/Baileys" target="_blank">Baileys</a> and <a href="https://github.com/nodejs" target="_blank">Nodejs</a>. Dont forget to give a star bro.
+ZulBot Multi Device is a whatsapp bot developed by <a href="https://github.com/dioooo-251" target="_blank">zul</a> using <a href="https://github.com/adiwajshing/Baileys" target="_blank">Baileys</a> and <a href="https://github.com/nodejs" target="_blank">Nodejs</a>. Dont forget to give a star bro.
 </p>
 
 <p align="center">
