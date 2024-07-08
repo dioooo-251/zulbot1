@@ -7140,7 +7140,9 @@ reply(mess.search)
 let anu = await fetchJson(`https://api.lolhuman.xyz/api/nekopoisearch?apikey=${apikey}&query=${text}`)
 anu = anu.result
 let txt = `Found : *${text}*`
-for (let x of anu) {
+for (let item of anu) {
+  // ... do something with item
+}
 txt += `\n\n*Title :* ${x.title}\n`
 txt += `*Link :* ${x.link}\n`
 txt += `*Thumbnail :* ${x.thumbnail}\n`
