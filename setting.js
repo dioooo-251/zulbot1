@@ -51,7 +51,7 @@ global.owner = ["6283822770622"] // GLOBAL NOMOR
 global.keyopenai = `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`
 //====================BY Biiofc=============================//
 global.botname = 'ZulBot - MD' //ubah jadi nama bot mu, note tanda ' gausah di hapus!
-global.packname = 'Create By Zul' // ubah aja ini nama sticker
+global.packname = 'Create By WhatsApp' // ubah aja ini nama sticker
 global.author = `At ${hariini}\n${time}` // ubah aja ini nama sticker
 global.hiasan = `	◦  `
 global.prefa = ['','!','.',',','🐤','🗿']
