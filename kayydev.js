@@ -22291,9 +22291,10 @@ description: "<!> Displays the Rpg Menu",
 id: '.rpgmenu'
 },
 {
-title: 'Menu Panel', 
-description: "<!> This menu is currently being improved", 
-id: '.panelmenu'
+highlight_label: 'Still in development stage',
+title: 'Menu Cek', 
+description: "<!> This menu is a check menu, such as Kodham and others", 
+id: '.cekmenu'
 },
 {
 title: 'Menu Tools', 
@@ -27438,7 +27439,7 @@ if (typemenu === 'v1') {
               }
 }
 break 
-case 'panelmenu': {
+case 'cekmenu': {
 if (!isRegistered) return reply2(mess.regis)
 await loading()
                      wek = `ʜɪ ${gris}@${m?.sender.split('@')[0]}${gris} 🪸
@@ -27456,29 +27457,10 @@ ${global.tTeks2}*_I N F O - B O T_*
 
 ${readmore}
 
-乂 *P A N E L - M E N U*
+乂 *C E K - M E N U*
 
-${global.tTeks}panel
-${global.tTeks}addusr
-${global.tTeks}addsrv
-${global.tTeks}admin
-${global.tTeks}delusr
-${global.tTeks}delsrv
-${global.tTeks}detusr
-${global.tTeks}listadp
-${global.tTeks}listusr
-${global.tTeks}listsrv
-${global.tTeks}reinstall
-${global.tTeks}restartsrv
-${global.tTeks}ramlist
-${global.tTeks}spanel
-${global.tTeks}startsrv
-${global.tTeks}stopsrv
-${global.tTeks}suspend
-${global.tTeks}tutorial
-${global.tTeks}unsuspend 
-${global.tTeks}updatesrv
-${global.tTeks}webpanel
+${global.tTeks}cekkodham
+${global.tTeks}cekpp (penis length)
 
 ${footer}`
 let ewe = Styles(wek)
@@ -31912,3 +31894,54 @@ fs.watchFile(file, () => {
   delete require.cache[file]
   require(file)
 })
+break
+case 'cekpp': case 'chekpanjangpenis': {
+const tanggal = new Date().toLocaleDateString('id', { weekday: 'long' }) + ',' + ' ' + new Date().toLocaleDateString("id", {day: 'numeric', month: 'long', year: 'numeric'})
+const timeout = 86400000
+const msToTime = (ms) => {
+  let h = isNaN(ms) ? '--' : Math.floor(ms / 3600000)
+  let m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60
+  let s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60
+  return [h + ' Jam ', m + ' Menit ', s + ' Detik'].map(v => v.toString().padStart(2, 0)).join(' ')
+  }
+let time = global.db.data.users[m.sender].cekpp + 86400000
+ if (new Date - global.db.data.users[m.sender].cekpp < 86400000) return m.reply(`Anda sudah cekpanjangpenis\ntunggu selama ${msToTime(time - new Date())} lagi`)
+const cekpp = [
+   "0 cm Buset Panjang Bet",
+   "1 cm Buset Pendek Bet",
+   "2 cm Buset Pendek Bet",
+   "3 cm Buset Pendek Bet",
+   "4 cm Buset Pendek Bet",
+   "5 cm Hemm Lumayan",
+   "6 cm Hemm Lumayan hm",
+   "7 cm Heum Terlalu panjang ya",
+   "8 cm Aduh jangan ditanya",
+   "9 cm Diluar Nurul",
+   "10 cm Aku Nak Pegang Dongs",
+   "11 cm Bang?",
+   "12 cm Auah Panjang bet",
+   "13 cm Ayo Panjangin Coli Terus",
+   "14 cm Gass",
+   "15 cm Alamak",
+]
+m.reply(`sedang mengukur penis...`)
+await sleep(1000)
+m.reply("sedang ingin didata...")
+await sleep(1000)
+m.reply(`panjang penis kamu adalah : ${await pickRandom(penis) }`)
+global.db.data.users[m.sender].cekpp = new Date * 1
+}
+break
+case "cekkhodam": {
+$if (!args[0]) return m.reply('nama lu mana bego')
+const khodam = [
+"Ohma Zio", "Anos Voldigoad", "ijat", "Fizi", "Sendal"
+]
+const hasil = khodam[Math.floor(Math.random() * khodam.length)]
+const response =
+`CEKKHODAM 
+NAMA : ${args[0]}
+KHODAM : ${hasil}`
+m.reply(response)
+}
+break
